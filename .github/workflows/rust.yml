@@ -226,6 +226,7 @@ jobs:
         with:
           name: ${{ env.BINARY_NAME }}-macos-slice-${{ matrix.arch }}
           path: dist/*
+          retention-days: 1
 
   build-macos-universal:
     name: Create Universal macOS DMG

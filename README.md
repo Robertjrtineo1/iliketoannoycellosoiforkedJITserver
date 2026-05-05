@@ -67,21 +67,21 @@ Before enabling JIT, make sure you have:
 ### Installation Instructions
 
 #### macOS
-1. Download [JITserver for macOS](https://github.com/CelloSerenity/JITserver/releases/latest/download/JITserver--macos-universal.dmg)
+1. Download [JITserver for macOS](https://github.com/CelloSerenity/JITserver/releases/latest/download/JITserver-macos-universal.dmg)
 2. Open the Disk Image and drag `JITserver` to `Applications`
 
 #### Windows
 1. Install [Apple Devices](https://apps.microsoft.com/detail/9np83lwlpz9k) from the Microsoft Store or [iTunes](https://apple.com/itunes/download/win64) from Apple's website
-2. Download [JITserver for Windows](https://github.com/CelloSerenity/JITserver/releases/latest/download/JITserver--windows-x86_64.exe) and save it to a memorable location
+2. Download [JITserver for Windows](https://github.com/CelloSerenity/JITserver/releases/latest/download/JITserver-windows-x86_64.exe) and save it to a memorable location
 
 #### Linux
 1. Install usbmuxd: 
    ```bash
    sudo apt install -y usbmuxd
    ```
-2. Download JITserver for your architecture and save it to a memorable location:
-   - [x86_64](https://github.com/CelloSerenity/JITserver/releases/latest/download/JITserver--linux-x86_64.AppImage)
-   - [AArch64](https://github.com/CelloSerenity/JITserver/releases/latest/download/JITserver--linux-aarch64.AppImage)
+2. Download JITserver for Linux for your machine's architecture and save it to a memorable location:
+   - [x86_64](https://github.com/CelloSerenity/JITserver/releases/latest/download/JITserver-linux-x86_64.AppImage)
+   - [AArch64](https://github.com/CelloSerenity/JITserver/releases/latest/download/JITserver-linux-aarch64.AppImage)
 3. Make the downloaded file executable
 
 ### Enabling JIT Instructions
